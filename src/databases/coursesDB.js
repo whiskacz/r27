@@ -1,19 +1,22 @@
-import { githubImg } from 'https://images.freeimages.com/fic/images/icons/2779/simple_icons/4096/github_4096_black.png';
-import { pythonImg } from "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
-import { javascriptImg } from "https://w7.pngwing.com/pngs/793/545/png-transparent-javascript-programmer-node-js-web-application-markup-language-thumbnail.png"
+import  githubImg  from './Github-icon.png';
+import  pythonImg  from './pythonico.png';
+import  javascriptImg  from  './jsico.png';
 
 export const coursesDB = [
     {
+        id: 1,
         title: "github",
         price: 15,
         img: githubImg
     },
-    {
+    {   
+        id:2,
         title: "javascript",
         price: 20,
         img: javascriptImg
     },
-    {
+    {   
+        id:3,
         title: "python",
         price: 25,
         img: pythonImg
